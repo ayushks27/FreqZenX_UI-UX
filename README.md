@@ -2,7 +2,12 @@
 
 A web application for applying real-time audio effects to your music or audio files. Process audio directly in your browser with an equalizer, bass boost, reverb, and more.
 
-## Features
+## Tech Involved
+- React, Node.js, Next.js, Tailwind CSS
+- Uses Web Audio API for audio processing
+- WaveSurfer.js for waveform visualization
+
+# Features
 
 - 9-band equalizer with presets (Bass Boost, Vocal Boost, Treble Boost)
 - Bass boost effect with customizable frequency and gain
@@ -36,7 +41,7 @@ bun install
 bun run dev
 ```
 
-## Usage
+### Usage
 
 1. Click the "Play" button to start the sample audio
 2. Upload your own audio using the file input
@@ -45,7 +50,4 @@ bun run dev
    - Bass Boost: Enhance low frequency content
    - Effects: Add reverb and adjust stereo width
 
-Tech Involved
-- React, Node.js, Next.js, Tailwind CSS
-- Uses Web Audio API for audio processing
-- WaveSurfer.js for waveform visualization
+
